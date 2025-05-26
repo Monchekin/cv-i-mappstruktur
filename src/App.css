@@ -1,0 +1,137 @@
+body {
+  overflow-x: hidden;
+  position: relative;
+}
+
+* {
+  box-sizing: border-box;
+  max-width: 100vw;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  max-width: 100vw;
+  overflow-x: hidden;
+  overflow-y: auto;
+  position: relative;
+}
+
+html,
+body {
+  background-color: #000000;
+  color: #e0e0e0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+  word-break: break-word;
+  color: #4fc3f7;
+  text-decoration: underline;
+}
+
+.code-block {
+  font-family: monospace;
+  white-space: pre-wrap;
+  background-color: #000000;
+  color: #e0e0e0;
+  padding: 1rem;
+  border-radius: 4px;
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: auto;
+  font-size: 0.9rem;
+}
+
+.app-wrapper {
+  padding: 2rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.app-title {
+  display: block;
+  color: #4fc3f7;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  width: fit-content;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: bold;
+  line-height: 1.4;
+}
+
+h2 {
+  font-size: 1.5rem;
+  line-height: 1.4;
+  margin-top: 1rem;
+  margin-bottom: 0rem;
+}
+
+.h2_ReadMe {
+  margin-bottom: 1rem;
+  margin-top: 0;
+}
+
+.h3_experience,
+.h3_education {
+  margin-bottom: 0;
+}
+
+ul {
+  padding-left: 1.5rem;
+}
+
+li {
+  margin-bottom: 0.3rem;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.li_experience,
+.li_education {
+  font-weight: bold;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.p_education,
+.p_experience,
+.p_internship {
+  margin-top: 0rem;
+  margin-bottom: 2rem;
+  padding-left: 0.5rem;
+}
+
+.p_projects {
+  margin-bottom: 0rem;
+}
+
+pre {
+  margin: 0;
+  line-height: 1.6;
+  font-size: 1rem;
+}
+
+.todo-sublist {
+  list-style: none;
+  padding-left: 1rem;
+}
+
+.li_todo {
+  margin-bottom: 2rem;
+}

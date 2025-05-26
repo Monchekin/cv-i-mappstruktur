@@ -1,0 +1,66 @@
+.folder-structure {
+  background-color: #000000;
+  color: #e0e0e0;
+  padding: 2rem 1rem;
+  font-family: monospace;
+  height: auto;
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  position: relative;
+  left: 0;
+  margin: 0;
+}
+
+.tree-indent {
+  padding-left: 1rem;
+  margin: 0.1rem 0;
+  width: 100%;
+  /* width: fit-content; */
+}
+
+.folder,
+.file {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-family: monospace;
+  font-size: 1rem;
+}
+
+.folder span,
+.file span {
+  line-height: 1;
+  display: inline-block;
+}
+
+.folder:hover,
+.file:hover {
+  background-color: #4b4b4b;
+}
+
+.folder:focus,
+.file:focus {
+  outline: 2px solid #4fc3f7;
+  outline-offset: 0px;
+}
+
+.file {
+  color: #e0e0e0;
+}
+
+.accordion-content {
+  width: 70%;
+  max-width: 100%;
+  margin-left: 1.5rem;
+  margin-bottom: 1.5rem;
+  border-left: 1px dashed #4fc3f7;
+  padding-left: 1rem;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
